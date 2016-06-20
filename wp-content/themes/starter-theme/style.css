@@ -1,0 +1,42 @@
+/*
+Theme Name: Jason's Starter Theme
+Theme URI: https://jasonmonsef.com
+Description: Custom starter theme to get off the ground faster.
+Author: Jason Monsef
+Author URI: http://jasonmonsef.com
+Version: 1.0
+License: Private
+*/
+
+
+/* Reset CSS */
+*,:before,:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
+blockquote,q{quotes:none}
+:focus{outline:0}
+::-webkit-input-placeholder{opacity:1}
+:-moz-placeholder{opacity:1}
+::-moz-placeholder{opacity:1}
+:-ms-input-placeholder{opacity:1}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+input[type=submit]:focus,input[type=button]:focus{outline:none}
+sup{font-family:Arial;font-size:60%;vertical-align:top}
+body{color:#666667;font-family:sans-serif; font-size: 16px;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+
+/* Demo CSS */
+
+.wrapper {width: 80%;margin: 0 auto;padding: 25px}
+.header {height: 10%;background: #00bcd4}
+
+/* Typeogrophy */
+h1 { font-size: 2.8125em; /* 45px */ line-height: 1.2000em; /* 54px */ margin-top: 0.4000em; margin-bottom: 0.0000em; }
+h2 { font-size: 2.1250em; /* 34px */ line-height: 1.0588em; /* 36px */ margin-top: 0.5294em; margin-bottom: 0.0000em; }
+h3 { font-size: 1.5625em; /* 25px */ line-height: 1.4400em; /* 36px */ margin-top: 0.7200em; margin-bottom: 0.0000em; }
+h4 { font-size: 1.2500em; /* 20px */ line-height: 1.8000em; /* 36px */ margin-top: 0.9000em; margin-bottom: 0.0000em; }
+h5 { font-size: 1.1250em; /* 18px */ line-height: 1.0000em; /* 18px */ margin-top: 1.0000em; margin-bottom: 0.0000em; }
+
+p {  /* 16px */ line-height: 1.3; /* 18px */ margin: 0 0 1.1250em 0; }
